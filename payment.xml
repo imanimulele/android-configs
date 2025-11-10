@@ -10,7 +10,7 @@
     <acquirerId>01016</acquirerId>
     <postalCode>11103</postalCode>
     <merchantCode>5812</merchantCode>
-    <customerName>Diamond Trust Bank</customerName>
+    <customerName>Diamond Trust</customerName>
     <countryNum>834</countryNum>
     <regionName>Dar-es-salaam</regionName>
     <authCentreTelNo></authCentreTelNo>
@@ -2050,5 +2050,6 @@
     </configurationGroupList>
 
 </config>
+
 
 
