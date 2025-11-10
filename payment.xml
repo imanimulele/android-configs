@@ -11,6 +11,7 @@
     <merchantCode>5812</merchantCode>
     <customerName>Diamond Trust Bank</customerName>
     <countryNum>834</countryNum>
+    <regionName>Dar-es-salaam</regionName>
     <authCentreTelNo></authCentreTelNo>
     <paymentSwitch>
         <pstn>
@@ -2048,3 +2049,4 @@
     </configurationGroupList>
 
 </config>
+
