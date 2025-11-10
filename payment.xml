@@ -6,10 +6,11 @@
     <isDefault>Y</isDefault>
     <mid>30011027</mid>
     <amexMid></amexMid>
+    <acquirerId>01016</acquirerId>
+    <postalCode>11103</postalCode>
     <merchantCode>5812</merchantCode>
     <customerName>Diamond Trust Bank</customerName>
     <countryNum>834</countryNum>
-    <acquirerId></acquirerId>
     <authCentreTelNo></authCentreTelNo>
     <paymentSwitch>
         <pstn>
@@ -2045,4 +2046,5 @@
             <afroParams/>
         </configurationGroup>
     </configurationGroupList>
+
 </config>
