@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <config type="Liquid Payment">
     <version>3.01.150a</version>
-    <stid>DT300040</stid>
+    <stid>DT300042</stid>
     <currencyCode>TZS</currencyCode>
     <currencyNum>834</currencyNum>
     <isDefault>Y</isDefault>
@@ -2050,6 +2050,7 @@
     </configurationGroupList>
 
 </config>
+
 
 
 
