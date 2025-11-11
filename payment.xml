@@ -10,7 +10,7 @@
 
     <merchantDetails>
         <merchantId mid="MERCHANT12345"/>
-        <terminalId stid="TERM67890"/>
+        <terminalId stid="TERM67895"/>
         <merchantCode mcc="6011"/>
         <acquirerId value="ACQ001"/>
         <merchantName value="Imani Payments"/>
@@ -164,3 +164,4 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
