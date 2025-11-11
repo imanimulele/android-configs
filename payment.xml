@@ -10,7 +10,7 @@
     </general>
 
     <merchantDetails>
-        <merchantId mid="00011037"/>
+        <merchantId mid="00011039"/>
         <terminalId stid="DT000548"/>
         <merchantCode mcc="5411"/>
         <acquirerId value="ACQ001"/>
@@ -183,3 +183,4 @@
     </logging>
 
 </paymentConfig>
+
