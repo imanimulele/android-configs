@@ -11,7 +11,7 @@
     <merchantDetails>
         <merchantId mid="MERCHANT12355"/>
         <terminalId stid="TERM67895"/>
-        <merchantCode mcc="6011"/>
+        <merchantCode mcc="5812"/>
         <acquirerId value="ACQ001"/>
         <merchantName value="Imani Payments"/>
         <merchantAddress value="Plot 45, Dar es Salaam, TZ"/>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
