@@ -9,12 +9,12 @@
     </general>
 
     <merchantDetails>
-        <merchantId mid="MERCHANT12355"/>
-        <terminalId stid="TERM67895"/>
-        <merchantCode mcc="5812"/>
+        <merchantId mid="00011037"/>
+        <terminalId stid="DT000548"/>
+        <merchantCode mcc="5411"/>
         <acquirerId value="ACQ001"/>
-        <merchantName value="Imani Payments"/>
-        <merchantAddress value="Plot 45, Dar es Salaam, TZ"/>
+        <merchantName value="PERFECTUS DENIS MUSHI"/>
+        <merchantAddress value="Plot 45, MEMORIO STREET"/>
         <smsCountryCode value="255"/>
         <merchantSMS value="+255712345678"/>
     </merchantDetails>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
