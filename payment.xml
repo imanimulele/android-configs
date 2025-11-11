@@ -154,7 +154,7 @@
                 <option code="revenueCollection" name="Revenue Collection" enabled="Y"/>
                 <option code="taxPayment" name="Tax Payment" enabled="Y"/>
                 <option code="licenseRenewal" name="License Renewal" enabled="Y"/>
-                <option code="finePayment" name="Fine Payment" enabled="Y"/>
+                <option code="finePayment" name="Fine Payment" enabled="N"/>
             </service>
         </governmentServices>
     </servicesConfiguration>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
