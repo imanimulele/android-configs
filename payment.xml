@@ -103,8 +103,8 @@
             <service code="accountServices" name="Account Services">
                 <option code="accountOpening" name="Account Opening" enabled="Y" destination="ccountOpeningForm"/>
                 <option code="balanceInquiry" name="Balance Inquiry" enabled="Y" destination="accountForm"/>
-                <option code="miniStatement" name="Mini Statement" enabled="Y" "accountForm"/>
-                <option code="pinChangeReset" name="PIN Change / Reset" enabled="Y" "pinChangeForm"/>
+                <option code="miniStatement" name="Mini Statement" enabled="Y" destination="accountForm"/>
+                <option code="pinChangeReset" name="PIN Change / Reset" enabled="Y" destination="pinChangeForm"/>
             </service>
 
             <service code="payments" name="Payments">
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
