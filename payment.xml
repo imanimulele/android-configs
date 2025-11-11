@@ -93,7 +93,7 @@
     </security>
 
     <servicesConfiguration>
-        <agencyBankingServices name="Agency Banking" enabled="Y">
+        <agencyBankingServices name="Agency Banking" enabled="N">
             <service code="cashTransactions" name="Cash Transactions">
                 <option code="cashDeposit" name="Cash Deposit" enabled="Y"/>
                 <option code="cashWithdrawal" name="Cash Withdrawal" enabled="Y"/>
@@ -164,4 +164,5 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
