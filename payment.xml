@@ -151,7 +151,7 @@
 
         <governmentServices name="Government Services" enabled="Y">
             <service code="govPayments" name="Government Payments">
-                <option code="revenueCollection" name="Revenue Collection" enabled="Y"/>
+                <option code="revenueCollection" name="Revenue Collection" enabled="Y" destination="revenueCollectionForm"/>
                 <option code="taxPayment" name="Tax Payment" enabled="Y" destination="amount"/>
                 <option code="licenseRenewal" name="License Renewal" enabled="Y" destination="amount"/>
                 <option code="finePayment" name="Fine Payment" enabled="Y" destination="amount"/>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
