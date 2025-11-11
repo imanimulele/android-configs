@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <paymentConfig version="3.0" lastUpdated="2025-11-11">
+
     <general>
         <currency code="TZS" symbol="TSh"/>
         <transactionTimeout value="30"/>
@@ -94,6 +95,7 @@
 
     <servicesConfiguration>
         <agencyBankingServices name="Agency Banking" enabled="Y">
+
             <service code="cashTransactions" name="Cash Transactions">
                 <option code="cashDeposit" name="Cash Deposit" enabled="Y" destination="amount"/>
                 <option code="cashWithdrawal" name="Cash Withdrawal" enabled="Y" destination="amount"/>
@@ -101,31 +103,31 @@
             </service>
 
             <service code="accountServices" name="Account Services">
-                <option code="accountOpening" name="Account Opening" enabled="Y" destination="ccountOpeningForm"/>
+                <option code="accountOpening" name="Account Opening" enabled="Y" destination="accountOpeningForm"/>
                 <option code="balanceInquiry" name="Balance Inquiry" enabled="Y" destination="accountForm"/>
                 <option code="miniStatement" name="Mini Statement" enabled="Y" destination="accountForm"/>
                 <option code="pinChangeReset" name="PIN Change / Reset" enabled="Y" destination="pinChangeForm"/>
             </service>
 
             <service code="payments" name="Payments">
-         <option code="utilityBillPayments" name="Utility Bill Payments" enabled="Y" hasSubOptions="Y">
-        <option code="tanesco" name="Electricity (TANESCO)" enabled="Y" destination="billerForm"/>
-        <option code="dawasco" name="Water (DAWASCO)" enabled="Y" destination="billerForm"/>
-        <option code="muwsa" name="Water (MUWSA)" enabled="Y" destination="billerForm"/>
-        <option code="gas" name="Gas / LPG" enabled="Y" destination="billerForm"/>
-        <option code="internet" name="Internet / Broadband" enabled="Y" destination="billerForm"/>
-        <!-- Add other utility options here -->
-    </option>
 
-    <!-- This option also leads to another list -->
-    <option code="schoolFees" name="School Fees" enabled="Y" hasSubOptions="Y">
-        <option code="canossa" name="Canossa Secondary School" enabled="Y" destination="schoolForm"/>
-        <option code="fezaBoys" name="Feza Boys’ Secondary School" enabled="Y" destination="schoolForm"/>
-        <option code="fezaGirls" name="Feza Girls’ Secondary School" enabled="Y" destination="schoolForm"/>
-        <option code="loyola" name="Loyola High School" enabled="Y" destination="schoolForm"/>
-        <!-- Add other schools here -->
-    </option>
-                <option code="schoolFees" name="School Fees" enabled="Y" destination="amount"/>
+                <option code="utilityBillPayments" name="Utility Bill Payments" enabled="Y" hasSubOptions="Y">
+                    <option code="tanesco" name="Electricity (TANESCO)" enabled="Y" destination="billerForm"/>
+                    <option code="dawasco" name="Water (DAWASCO)" enabled="Y" destination="billerForm"/>
+                    <option code="muwsa" name="Water (MUWSA)" enabled="Y" destination="billerForm"/>
+                    <option code="gas" name="Gas / LPG" enabled="Y" destination="billerForm"/>
+                    <option code="internet" name="Internet / Broadband" enabled="Y" destination="billerForm"/>
+                    <!-- Add other utility options here -->
+                </option>
+
+                <option code="schoolFees" name="School Fees" enabled="Y" hasSubOptions="Y">
+                    <option code="canossa" name="Canossa Secondary School" enabled="Y" destination="schoolForm"/>
+                    <option code="fezaBoys" name="Feza Boys’ Secondary School" enabled="Y" destination="schoolForm"/>
+                    <option code="fezaGirls" name="Feza Girls’ Secondary School" enabled="Y" destination="schoolForm"/>
+                    <option code="loyola" name="Loyola High School" enabled="Y" destination="schoolForm"/>
+                    <!-- Add other schools here -->
+                </option>
+
                 <option code="govRevenueCollection" name="Government Revenue Collection" enabled="Y" destination="amount"/>
                 <option code="insurancePayments" name="Insurance Premium Payments" enabled="Y" destination="amount"/>
             </service>
@@ -179,17 +181,5 @@
         <logLevel value="INFO"/>
         <maskPAN value="true"/>
     </logging>
+
 </paymentConfig>
-
-
-
-
-
-
-
-
-
-
-
-
-
