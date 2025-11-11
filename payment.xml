@@ -95,66 +95,66 @@
     <servicesConfiguration>
         <agencyBankingServices name="Agency Banking" enabled="Y">
             <service code="cashTransactions" name="Cash Transactions">
-                <option code="cashDeposit" name="Cash Deposit" enabled="Y"/>
-                <option code="cashWithdrawal" name="Cash Withdrawal" enabled="Y"/>
-                <option code="cashTransfer" name="Cash Transfer (P2P)" enabled="Y"/>
+                <option code="cashDeposit" name="Cash Deposit" enabled="Y" destination="amount"/>
+                <option code="cashWithdrawal" name="Cash Withdrawal" enabled="Y" destination="amount"/>
+                <option code="cashTransfer" name="Cash Transfer (P2P)" enabled="Y" destination="amount"/>
             </service>
 
             <service code="accountServices" name="Account Services">
-                <option code="accountOpening" name="Account Opening" enabled="Y"/>
-                <option code="balanceInquiry" name="Balance Inquiry" enabled="Y"/>
-                <option code="miniStatement" name="Mini Statement" enabled="Y"/>
-                <option code="pinChangeReset" name="PIN Change / Reset" enabled="Y"/>
+                <option code="accountOpening" name="Account Opening" enabled="Y" destination="ccountOpeningForm"/>
+                <option code="balanceInquiry" name="Balance Inquiry" enabled="Y" destination="accountForm"/>
+                <option code="miniStatement" name="Mini Statement" enabled="Y" "accountForm"/>
+                <option code="pinChangeReset" name="PIN Change / Reset" enabled="Y" "pinChangeForm"/>
             </service>
 
             <service code="payments" name="Payments">
-                <option code="utilityBillPayments" name="Utility Bill Payments" enabled="Y"/>
-                <option code="schoolFees" name="School Fees" enabled="Y"/>
-                <option code="govRevenueCollection" name="Government Revenue Collection" enabled="Y"/>
-                <option code="insurancePayments" name="Insurance Premium Payments" enabled="Y"/>
+                <option code="utilityBillPayments" name="Utility Bill Payments" enabled="Y" destination="amount"/>
+                <option code="schoolFees" name="School Fees" enabled="Y"v destination="amount"/>
+                <option code="govRevenueCollection" name="Government Revenue Collection" enabled="Y" destination="amount"/>
+                <option code="insurancePayments" name="Insurance Premium Payments" enabled="Y" destination="amount"/>
             </service>
 
             <service code="mobileMoney" name="Mobile Money Integration">
-                <option code="walletTopup" name="Mobile Wallet Top-up" enabled="Y"/>
-                <option code="walletWithdrawal" name="Mobile Wallet Withdrawal" enabled="Y"/>
-                <option code="moneyTransfers" name="Mobile Money Transfers" enabled="Y"/>
+                <option code="walletTopup" name="Mobile Wallet Top-up" enabled="Y" destination="amount"/>
+                <option code="walletWithdrawal" name="Mobile Wallet Withdrawal" enabled="Y" destination="amount"/>
+                <option code="moneyTransfers" name="Mobile Money Transfers" enabled="Y" destination="amount"/>
             </service>
 
             <service code="loanServices" name="Loan Services">
-                <option code="loanApplication" name="Loan Application" enabled="Y"/>
-                <option code="loanRepayment" name="Loan Repayment" enabled="Y"/>
-                <option code="loanDisbursement" name="Loan Disbursement" enabled="Y"/>
+                <option code="loanApplication" name="Loan Application" enabled="Y" destination="amount"/>
+                <option code="loanRepayment" name="Loan Repayment" enabled="Y" destination="amount"/>
+                <option code="loanDisbursement" name="Loan Disbursement" enabled="Y" destination="amount"/>
             </service>
 
             <service code="cardServices" name="Card Services">
-                <option code="cardActivation" name="Card Activation" enabled="Y"/>
-                <option code="cardlessWithdrawal" name="Cardless Withdrawals" enabled="Y"/>
-                <option code="cardPayments" name="Debit/Credit Card Payments" enabled="Y"/>
+                <option code="cardActivation" name="Card Activation" enabled="Y" destination="cardDetailsForm"/>
+                <option code="cardlessWithdrawal" name="Cardless Withdrawals" enabled="Y" destination="cardDetailsForm"/>
+                <option code="cardPayments" name="Debit/Credit Card Payments" enabled="Y" destination="cardDetailsForm"/>
             </service>
 
             <service code="otherServices" name="Other Services">
-                <option code="airtimePurchase" name="Airtime Purchase" enabled="Y"/>
-                <option code="merchantPayments" name="Merchant Payments (POS)" enabled="Y"/>
-                <option code="remittances" name="Remittances (Domestic &amp; International)" enabled="Y"/>
-                <option code="agentFloatManagement" name="Agent Float Management" enabled="Y"/>
+                <option code="airtimePurchase" name="Airtime Purchase" enabled="Y" destination="amount"/>
+                <option code="merchantPayments" name="Merchant Payments (POS)" enabled="Y" destination="amount"/>
+                <option code="remittances" name="Remittances (Domestic &amp; International)" enabled="Y" destination="amount"/>
+                <option code="agentFloatManagement" name="Agent Float Management" enabled="Y" destination="amount"/>
             </service>
         </agencyBankingServices>
 
         <merchantServices name="Merchant Services" enabled="Y">
             <service code="merchantTransactions" name="Merchant Transactions">
-                <option code="sales" name="Sales" enabled="Y"/>
-                <option code="refund" name="Refund" enabled="Y"/>
-                <option code="void" name="Void Transaction" enabled="Y"/>
-                <option code="reversal" name="Reversal" enabled="Y"/>
+                <option code="sales" name="Sales" enabled="Y" destination="amount"/>
+                <option code="refund" name="Refund" enabled="Y" destination="amount"/>
+                <option code="void" name="Void Transaction" enabled="Y" destination="amount"/>
+                <option code="reversal" name="Reversal" enabled="Y" destination="amount"/>
             </service>
         </merchantServices>
 
         <governmentServices name="Government Services" enabled="Y">
             <service code="govPayments" name="Government Payments">
                 <option code="revenueCollection" name="Revenue Collection" enabled="Y"/>
-                <option code="taxPayment" name="Tax Payment" enabled="Y"/>
-                <option code="licenseRenewal" name="License Renewal" enabled="Y"/>
-                <option code="finePayment" name="Fine Payment" enabled="Y"/>
+                <option code="taxPayment" name="Tax Payment" enabled="Y" destination="amount"/>
+                <option code="licenseRenewal" name="License Renewal" enabled="Y" destination="amount"/>
+                <option code="finePayment" name="Fine Payment" enabled="Y" destination="amount"/>
             </service>
         </governmentServices>
     </servicesConfiguration>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
