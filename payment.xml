@@ -5,7 +5,7 @@
     <currencyCode>TZS</currencyCode>
     <currencyNum>834</currencyNum>
     <isDefault>Y</isDefault>
-    <mid>30011027</mid>
+    <mid>30011028</mid>
     <amexMid></amexMid>
     <acquirerId>01016</acquirerId>
     <postalCode>11103</postalCode>
@@ -2050,6 +2050,7 @@
     </configurationGroupList>
 
 </config>
+
 
 
 
