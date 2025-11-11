@@ -109,7 +109,7 @@
 
             <service code="payments" name="Payments">
                 <option code="utilityBillPayments" name="Utility Bill Payments" enabled="Y" destination="amount"/>
-                <option code="schoolFees" name="School Fees" enabled="Y"v destination="amount"/>
+                <option code="schoolFees" name="School Fees" enabled="Y" destination="amount"/>
                 <option code="govRevenueCollection" name="Government Revenue Collection" enabled="Y" destination="amount"/>
                 <option code="insurancePayments" name="Insurance Premium Payments" enabled="Y" destination="amount"/>
             </service>
@@ -164,6 +164,7 @@
         <maskPAN value="true"/>
     </logging>
 </paymentConfig>
+
 
 
 
