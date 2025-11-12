@@ -141,8 +141,6 @@
         <option code="amana" name="Amana Bank Limited" enabled="Y" destination="bankPaymentForm"/>
         <option code="fbme" name="FBME Bank Limited" enabled="Y" destination="bankPaymentForm"/>
         <option code="mcb" name="Mkombozi Commercial Bank Plc" enabled="Y" destination="bankPaymentForm"/>
-        <option code="efatha" name="Efatha Bank Limited" enabled="Y" destination="bankPaymentForm"/>
-        <option code="tib" name="TIB Development Bank Limited" enabled="Y" destination="bankPaymentForm"/>
         <option code="tcb" name="Tanzania Commercial Bank" enabled="Y" destination="bankPaymentForm"/>
 
     </option>
@@ -202,6 +200,7 @@
     </logging>
 
 </paymentConfig>
+
 
 
 
