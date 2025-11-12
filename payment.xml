@@ -127,6 +127,25 @@
                     <option code="loyola" name="Loyola High School" enabled="Y" destination="schoolForm"/>
                     <!-- Add other schools here -->
                 </option>
+            <option code="tanzanianBanks" name="Bank Services" enabled="Y" hasSubOptions="Y">
+
+        <option code="crdb" name="CRDB Bank Plc" enabled="Y" destination="bankPaymentForm"/>
+        <option code="nmb" name="NMB Bank Plc" enabled="Y" destination="bankPaymentForm"/>
+        <option code="stanbic" name="Stanbic Bank Tanzania" enabled="Y" destination="bankPaymentForm"/>
+        <option code="standardChartered" name="Standard Chartered Bank Tanzania" enabled="Y" destination="bankPaymentForm"/>
+        <option code="absa" name="Absa Bank Tanzania Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="dtb" name="Diamond Trust Bank Tanzania Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="equity" name="Equity Bank Tanzania Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="exim" name="Exim Bank Tanzania Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="azania" name="Azania Bank Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="amana" name="Amana Bank Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="fbme" name="FBME Bank Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="mcb" name="Mkombozi Commercial Bank Plc" enabled="Y" destination="bankPaymentForm"/>
+        <option code="efatha" name="Efatha Bank Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="tib" name="TIB Development Bank Limited" enabled="Y" destination="bankPaymentForm"/>
+        <option code="tcb" name="Tanzania Commercial Bank" enabled="Y" destination="bankPaymentForm"/>
+
+    </option>
 
                 <option code="govRevenueCollection" name="Government Revenue Collection" enabled="Y" destination="amount"/>
                 <option code="insurancePayments" name="Insurance Premium Payments" enabled="Y" destination="amount"/>
@@ -183,6 +202,7 @@
     </logging>
 
 </paymentConfig>
+
 
 
 
