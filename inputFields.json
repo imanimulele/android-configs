@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "accountNumber": { "type": "text", "label": "Account Number" },
+    "amount": { "type": "number", "label": "Amount" },
+    "mobileNumber": { "type": "phone", "label": "Mobile Number" },
+    "remarks": { "type": "text", "label": "Remarks" },
+    "depositorName": { "type": "text", "label": "Depositor Name" },
+    "nida": { "type": "text", "label": "NIDA / Passport" },
+    "sourceOfFunds": { "type": "dropdown", "label": "Source of Funds" },
+    "destinationAccount": { "type": "text", "label": "Destination Account" },
+    "token": { "type": "text", "label": "Token Code" },
+    "otp": { "type": "otp", "label": "OTP" },
+    "invoiceNumber": { "type": "text", "label": "Invoice Number" }
+  }
+}

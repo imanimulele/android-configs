@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TerminalConfig>
+
+    <Terminal>
+        <TerminalID>12345678</TerminalID>
+        <MerchantID>987654321</MerchantID>
+        <MerchantName>DEMO MERCHANT</MerchantName>
+        <MerchantCategoryCode>6011</MerchantCategoryCode>
+        <AcquirerID>000001</AcquirerID>
+
+        <ContactlessCVMLimit>100000</ContactlessCVMLimit>
+        <OfflineLimit>40000</OfflineLimit>
+        <FallbackAllowed>true</FallbackAllowed>
+
+        <Locale>en-TZ</Locale>
+        <TimeZone>Africa/Dar_es_Salaam</TimeZone>
+        <CountryCode>834</CountryCode>
+        <CurrencyCode>834</CurrencyCode>
+        <postalCode>00000</postalCode>
+        <merchantCity>DAR ES SALAAM</merchantCity>
+        <mobileNumber>255700000000</mobileNumber>
+        <email>muleleiman@gmail.com</email>
+        <supportContact>+255700000000</supportContact>
+        <mobileCode>255</mobileCode>
+    </Terminal>
+
+    <!-- Optional Security -->
+    <Security>
+        <DUKPT>
+            <KeyType>BDK</KeyType>
+            <BDK>0123456789ABCDEFFEDCBA9876543210</BDK>
+            <KSI>FFFF9876543210E00000</KSI>
+        </DUKPT>
+
+        <PIN>
+            <PINFormat>ISO9564-0</PINFormat>
+            <MaxPINLength>12</MaxPINLength>
+            <MinPINLength>4</MinPINLength>
+            <PINBypassAllowed>false</PINBypassAllowed>
+        </PIN>
+    </Security>
+
+    <servicesConfiguration>
+        <agencyBankingServices name="Agency Banking" enabled="Y">        
+        <Acquirer code="CRDB" name="CRDB Bank">
+        <Code>01</Code>    
+        <Logo>crdb.png</Logo>
+            <ISOHost>196.12.34.10</ISOHost>
+            <ISOPort>5000</ISOPort>
+            <SSL>true</SSL>
+            <Timeout>30</Timeout>
+            <TPDU>6001020000</TPDU>
+            <SupportsContactless>true</SupportsContactless>
+            <SupportsTAPonPhone>true</SupportsTAPonPhone>
+
+        </Acquirer>
+
+            <Acquirer code="NMB" name="NMB Bank">
+            <Code>02</Code>
+            <Logo>nmb.png</Logo>
+            <ISOHost>196.12.34.11</ISOHost>
+            <ISOPort>5001</ISOPort>
+            <SSL>true</SSL>
+            <Timeout>30</Timeout>
+            <TPDU>6001030000</TPDU>
+            <SupportsContactless>true</SupportsContactless>
+            <SupportsTAPonPhone>true</SupportsTAPonPhone>
+    
+        </Acquirer>
+
+
+        </agencyBankingServices>
+
+        <merchantServices name="Merchant Services" enabled="Y">
+            <service code="merchantTransactions" name="Merchant Transactions">
+                <option code="sales" name="Sales" enabled="Y" destination="amount"/>
+                <option code="refund" name="Refund" enabled="Y" destination="amount"/>
+                <option code="void" name="Void Transaction" enabled="Y" destination="amount"/>
+                <option code="reversal" name="Reversal" enabled="Y" destination="amount"/>
+            </service>
+            <service code="merchantReports" name="Reports">
+                <option code="settlements" name="Settlements" enabled="Y" destination="reports/settlements"/>
+                <option code="transactions" name="Transactions" enabled="Y" destination="reports/transactions"/>
+            </service>
+        </merchantServices>
+
+        <governmentServices name="Government Services" enabled="Y">
+            <service code="govPayments" name="Government Payments">
+                <option code="revenueCollection" name="Revenue Collection" enabled="Y" destination="revenueCollectionForm"/>
+                <option code="taxPayment" name="Tax Payment" enabled="Y" destination="amount"/>
+                <option code="licenseRenewal" name="License Renewal" enabled="Y" destination="amount"/>
+                <option code="finePayment" name="Fine Payment" enabled="Y" destination="amount"/>
+            </service>
+        </governmentServices>
+    </servicesConfiguration>
+
+</TerminalConfig>

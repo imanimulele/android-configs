@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContactlessConfig>
+
+    <Contactless>
+        <Enabled>true</Enabled>
+        <ConfigFile>cfg_ctls_emv.xml</ConfigFile>
+        <Platform>TAP_ON_PHONE</Platform>
+
+        <TAPDetection>
+            <DetectionMode>CONTINUOUS</DetectionMode>
+            <FieldStrength>AUTO</FieldStrength>
+            <SoundOnDetection>true</SoundOnDetection>
+            <VibrationOnDetection>true</VibrationOnDetection>
+            <HapticFeedbackEnabled>true</HapticFeedbackEnabled>
+        </TAPDetection>
+
+        <TransactionLimits>
+            <NoOnDeviceCVMLimit>3000</NoOnDeviceCVMLimit>
+            <OnDeviceCVMLimit>35000</OnDeviceCVMLimit>
+            <ContactlessFloorLimit>200</ContactlessFloorLimit>
+            <OnlinePINThreshold>50000</OnlinePINThreshold>
+            <MaxContactlessPerDay>500000</MaxContactlessPerDay>
+            <MaxContactlessPerTransaction>100000</MaxContactlessPerTransaction>
+        </TransactionLimits>
+
+    </Contactless>
+
+    <TAPonPhoneSettings>
+        <Enabled>true</Enabled>
+        <AndroidMinSDK>26</AndroidMinSDK>
+        <AndroidTargetSDK>34</AndroidTargetSDK>
+        <SupportedNFCTypes>
+            <TypeA>true</TypeA>
+            <TypeB>true</TypeB>
+            <TypeF>true</TypeF>
+        </SupportedNFCTypes>
+    </TAPonPhoneSettings>
+
+</ContactlessConfig>

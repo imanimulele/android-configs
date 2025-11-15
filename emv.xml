@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EMVContactlessConfig>
+
+    <AIDs>
+        <!-- Visa -->
+        <AID>A0000000031010</AID> <!-- Visa Credit -->
+        <AID>A0000000032010</AID> <!-- Visa Electron -->
+
+        <!-- Mastercard -->
+        <AID>A0000000041010</AID> <!-- Mastercard Credit -->
+        <AID>A0000000043060</AID> <!-- Maestro -->
+
+        <!-- Amex -->
+        <AID>A000000025</AID> <!-- American Express -->
+
+        <!-- UnionPay -->
+        <AID>A000000333010101</AID> <!-- UnionPay Debit/Credit -->
+    </AIDs>
+
+    <Schemes>
+        <Visa enabled="true" kernelID="02" contactlessEnabled="true"/>
+        <MasterCard enabled="true" kernelID="03" contactlessEnabled="true"/>
+        <Maestro enabled="true" kernelID="03" contactlessEnabled="true"/>
+        <Amex enabled="true" kernelID="04" contactlessEnabled="true"/>
+        <UnionPay enabled="true" kernelID="07" contactlessEnabled="true"/>
+    </Schemes>
+
+    <CVM>
+        <NoCVMLimit>10000</NoCVMLimit> <!-- TZS -->
+        <SignatureLimit>200000</SignatureLimit>
+        <OnlinePIN>true</OnlinePIN>
+        <CVMRequiredAboveLimit>true</CVMRequiredAboveLimit>
+    </CVM>
+
+    <TransactionLimits>
+        <Visa>
+            <FloorLimit>0</FloorLimit>
+            <ContactlessLimit>10000</ContactlessLimit>
+            <CVMRequiredLimit>10000</CVMRequiredLimit>
+        </Visa>
+        <MasterCard>
+            <FloorLimit>0</FloorLimit>
+            <ContactlessLimit>10000</ContactlessLimit>
+            <CVMRequiredLimit>10000</CVMRequiredLimit>
+        </MasterCard>
+        <Maestro>
+            <FloorLimit>0</FloorLimit>
+            <ContactlessLimit>10000</ContactlessLimit>
+            <CVMRequiredLimit>10000</CVMRequiredLimit>
+        </Maestro>
+        <Amex>
+            <FloorLimit>0</FloorLimit>
+            <ContactlessLimit>10000</ContactlessLimit>
+            <CVMRequiredLimit>10000</CVMRequiredLimit>
+        </Amex>
+        <UnionPay>
+            <FloorLimit>0</FloorLimit>
+            <ContactlessLimit>10000</ContactlessLimit>
+            <CVMRequiredLimit>10000</CVMRequiredLimit>
+        </UnionPay>
+    </TransactionLimits>
+
+    <ReaderSettings>
+        <ContactlessEnabled>true</ContactlessEnabled>
+        <TransactionType>Purchase</TransactionType>
+        <TerminalType>POS</TerminalType>
+        <TerminalCapabilities>EMV,Magstripe,Contactless</TerminalCapabilities>
+        <AdditionalTerminalCapabilities>OnlinePIN,Signature</AdditionalTerminalCapabilities>
+    </ReaderSettings>
+
+    <RiskManagement>
+        <Visa>
+            <TACDenial>0000000000</TACDenial>
+            <TACOnline>DC4004F800</TACOnline>
+            <TACDefault>DC4000F800</TACDefault>
+            <DDOL>9F3704</DDOL>
+            <TDOL>9F0206 9F0306 9F1A02 9505 5F2A02 9A03 9C01 9F3704 8202 9F3602</TDOL>
+        </Visa>
+        <MasterCard>
+            <TACDenial>0000000000</TACDenial>
+            <TACOnline>FC50ACF800</TACOnline>
+            <TACDefault>FC50ACF800</TACDefault>
+            <DDOL>9F3704</DDOL>
+            <TDOL>9F0206 9F0306 9F1A02 9505 5F2A02 9A03 9C01 9F3704 8202 9F3602</TDOL>
+        </MasterCard>
+        <Maestro>
+            <TACDenial>0000000000</TACDenial>
+            <TACOnline>FC50ACF800</TACOnline>
+            <TACDefault>FC50ACF800</TACDefault>
+            <DDOL>9F3704</DDOL>
+            <TDOL>9F0206 9F0306 9F1A02 9505 5F2A02 9A03 9C01 9F3704 8202 9F3602</TDOL>
+        </Maestro>
+        <Amex>
+            <TACDenial>0000000000</TACDenial>
+            <TACOnline>F850ACF800</TACOnline>
+            <TACDefault>F850ACF800</TACDefault>
+            <DDOL>9F3704</DDOL>
+            <TDOL>9F0206 9F0306 9F1A02 9505 5F2A02 9A03 9C01 9F3704 8202 9F3602</TDOL>
+        </Amex>
+        <UnionPay>
+            <TACDenial>0000000000</TACDenial>
+            <TACOnline>FC60ACF800</TACOnline>
+            <TACDefault>FC60ACF800</TACDefault>
+            <DDOL>9F3704</DDOL>
+            <TDOL>9F0206 9F0306 9F1A02 9505 5F2A02 9A03 9C01 9F3704 8202 9F3602</TDOL>
+        </UnionPay>
+    </RiskManagement>
+
+</EMVContactlessConfig>

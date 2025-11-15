@@ -1,0 +1,71 @@
+[
+  {
+    "bankId": "CRDB",
+    "bankName": "CRDB Bank",
+    "services": {
+      "withdraw": {
+        "method": "CARD_ONLY",
+        "fields": {
+          "accountNumber": false,
+          "amount": true,
+          "mobileNumber": false,
+          "remarks": true,
+          "depositorName": false,
+          "nida": true,
+          "sourceOfFunds": false,
+          "destinationAccount": false,
+          "token": false,
+          "otp": false,
+          "invoiceNumber": false
+        }
+      },
+      "tokenWithdraw": {
+        "method": "TOKEN_OTP",
+        "fields": {
+          "token": true,
+          "otp": true,
+          "amount": true,
+          "remarks": true,
+          "mobileNumber": true,
+          "nida": false,
+          "accountNumber": false
+        }
+      }
+    }
+  },
+  {
+    "bankId": "NMB",
+    "bankName": "NMB Bank",
+    "services": {
+      "withdraw": {
+        "method": "ACCOUNT_NUMBER",
+        "fields": {
+          "accountNumber": true,
+          "amount": true,
+          "mobileNumber": true,
+          "remarks": true,
+          "depositorName": true,
+          "nida": false,
+          "sourceOfFunds": false,
+          "destinationAccount": false,
+          "token": false,
+          "otp": false,
+          "invoiceNumber": false
+        }
+      },
+      "tokenWithdraw": {
+        "method": "TOKEN_OTP",
+        "fields": {
+          "token": true,
+          "otp": true,
+          "amount": true,
+          "mobileNumber": true,
+          "remarks": false,
+          "nida": false,
+          "accountNumber": false,
+          "depositorName": false
+        }
+      }
+    }
+  }
+]
