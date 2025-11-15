@@ -43,7 +43,15 @@
     <servicesConfiguration>
         <agencyBankingServices name="Agency Banking" enabled="Y"> 
            <service code="bannkList" name="Bank List ">
-           <option code="getBanks" name="Get Banks" enabled="Y" destination="banksList"/>
+          <option code="boa" name="Bank of America" enabled="Y" destination="amount"/>
+<option code="chase" name="Chase Bank" enabled="Y" destination="amount"/>
+<option code="wells" name="Wells Fargo" enabled="Y" destination="amount"/>
+<option code="citi" name="Citibank" enabled="Y" destination="amount"/>
+<option code="capone" name="Capital One" enabled="Y" destination="amount"/>
+<option code="pnc" name="PNC Bank" enabled="Y" destination="amount"/>
+<option code="td" name="TD Bank" enabled="Y" destination="amount"/>
+<option code="usbank" name="US Bank" enabled="Y" destination="amount"/>
+
            </service>
     </agencyBankingServices>
 
@@ -71,6 +79,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
