@@ -51,15 +51,6 @@
 <option code="fbme" name="FBME Bank" enabled="Y" destination="bankConfigs"/>
 <option code="exim" name="Exim Bank Tanzania" enabled="Y" destination="bankConfigs"/>
 <option code="dtb" name="Diamond Trust Bank (DTB)" enabled="Y" destination="bankConfigs"/>
-<option code="bc" name="Bank of Africa Tanzania" enabled="Y" destination="bankConfigs"/>
-<option code="kcb" name="KCB Bank Tanzania" enabled="Y" destination="bankConfigs"/>
-<option code="habib" name="Habib African Bank" enabled="Y" destination="bankConfigs"/>
-<option code="mucoba" name="Mucoba Bank" enabled="Y" destination="bankConfigs"/>
-<option code="akiba" name="Akiba Commercial Bank" enabled="Y" destination="bankConfigs"/>
-<option code="tib" name="TIB Corporate Bank" enabled="Y" destination="bankConfigs"/>
-<option code="tpb" name="TPB Bank" enabled="Y" destination="bankConfigs"/>
-
-
            </service>
     </agencyBankingServices>
 
@@ -87,6 +78,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
