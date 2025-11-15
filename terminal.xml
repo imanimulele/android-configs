@@ -2,7 +2,7 @@
 <TerminalConfig>
 
     <Terminal>
-        <TerminalID>12345678</TerminalID>
+        <TerminalID>DT000001</TerminalID>
         <MerchantID>987654321</MerchantID>
         <MerchantName>DEMO MERCHANT</MerchantName>
         <MerchantCategoryCode>6011</MerchantCategoryCode>
@@ -95,3 +95,4 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
