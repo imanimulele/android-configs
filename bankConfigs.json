@@ -17,7 +17,7 @@
               "otp": false
             }
           },
-          "MOBILE_NUMBER": {
+          "MOBILE NUMBER": {
             "fields": {
               "mobileNumber": true,
               "amount": true,
@@ -29,7 +29,7 @@
               "otp": false
             }
           },
-          "TOKEN_OTP": {
+          "TOKEN": {
             "fields": {
               "token": true,
               "otp": true,
@@ -59,7 +59,7 @@
               "token": false
             }
           },
-          "MOBILE_NUMBER": {
+          "MOBILE NUMBER": {
             "fields": {
               "mobileNumber": true,
               "amount": true,
@@ -72,7 +72,7 @@
               "token": false
             }
           },
-          "AGENT_CODE": {
+          "AGENT CODE": {
             "fields": {
               "agentCode": true,
               "amount": true,
@@ -86,7 +86,7 @@
               "token": false
             }
           },
-          "TOKEN_OTP": {
+          "TOKEN": {
             "fields": {
               "token": true,
               "otp": true,
@@ -190,5 +190,6 @@
     }
   }
 ]
+
 
 
