@@ -43,14 +43,22 @@
     <servicesConfiguration>
         <agencyBankingServices name="Agency Banking" enabled="Y"> 
            <service code="bannkList" name="Bank List ">
- <option code="boa" name="Bank of America" enabled="Y" destination="bankConfigs"/>
-<option code="chase" name="Chase Bank" enabled="Y" destination="bankConfigs"/>
-<option code="wells" name="Wells Fargo" enabled="Y" destination="bankConfigs"/>
-<option code="citi" name="Citibank" enabled="Y" destination="bankConfigs"/>
-<option code="capone" name="Capital One" enabled="Y" destination="bankConfigs"/>
-<option code="pnc" name="PNC Bank" enabled="Y" destination="bankConfigs"/>
-<option code="td" name="TD Bank" enabled="Y" destination="bankConfigs"/>
-<option code="usbank" name="US Bank" enabled="Y" destination="bankConfigs"/>
+<option code="crdb" name="CRDB Bank" enabled="Y" destination="bankConfigs"/>
+<option code="nbc" name="NBC Bank" enabled="Y" destination="bankConfigs"/>
+<option code="nmb" name="NMB Bank" enabled="Y" destination="bankConfigs"/>
+<option code="stanbic" name="Stanbic Bank" enabled="Y" destination="bankConfigs"/>
+<option code="equity" name="Equity Bank Tanzania" enabled="Y" destination="bankConfigs"/>
+<option code="fbme" name="FBME Bank" enabled="Y" destination="bankConfigs"/>
+<option code="exim" name="Exim Bank Tanzania" enabled="Y" destination="bankConfigs"/>
+<option code="dtb" name="Diamond Trust Bank (DTB)" enabled="Y" destination="bankConfigs"/>
+<option code="bc" name="Bank of Africa Tanzania" enabled="Y" destination="bankConfigs"/>
+<option code="kcb" name="KCB Bank Tanzania" enabled="Y" destination="bankConfigs"/>
+<option code="habib" name="Habib African Bank" enabled="Y" destination="bankConfigs"/>
+<option code="mucoba" name="Mucoba Bank" enabled="Y" destination="bankConfigs"/>
+<option code="akiba" name="Akiba Commercial Bank" enabled="Y" destination="bankConfigs"/>
+<option code="tib" name="TIB Corporate Bank" enabled="Y" destination="bankConfigs"/>
+<option code="tpb" name="TPB Bank" enabled="Y" destination="bankConfigs"/>
+
 
            </service>
     </agencyBankingServices>
@@ -79,6 +87,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
