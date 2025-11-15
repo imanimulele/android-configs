@@ -4,31 +4,101 @@
     "bankName": "CRDB Bank",
     "services": {
       "withdraw": {
-        "method": "CARD_ONLY",
-        "fields": {
-          "accountNumber": false,
-          "amount": true,
-          "mobileNumber": false,
-          "remarks": true,
-          "depositorName": false,
-          "nida": true,
-          "sourceOfFunds": false,
-          "destinationAccount": false,
-          "token": false,
-          "otp": false,
-          "invoiceNumber": false
+        "methods": {
+          "CARD": {
+            "fields": {
+              "cardNumber": true,
+              "amount": true,
+              "nida": true,
+              "remarks": true,
+              "mobileNumber": false,
+              "accountNumber": false,
+              "token": false,
+              "otp": false
+            }
+          },
+          "MOBILE_NUMBER": {
+            "fields": {
+              "mobileNumber": true,
+              "amount": true,
+              "remarks": true,
+              "nida": false,
+              "cardNumber": false,
+              "accountNumber": false,
+              "token": false,
+              "otp": false
+            }
+          },
+          "TOKEN_OTP": {
+            "fields": {
+              "token": true,
+              "otp": true,
+              "amount": true,
+              "remarks": true,
+              "mobileNumber": true,
+              "accountNumber": false,
+              "cardNumber": false,
+              "nida": false
+            }
+          }
         }
       },
-      "tokenWithdraw": {
-        "method": "TOKEN_OTP",
-        "fields": {
-          "token": true,
-          "otp": true,
-          "amount": true,
-          "remarks": true,
-          "mobileNumber": true,
-          "nida": false,
-          "accountNumber": false
+
+      "deposit": {
+        "methods": {
+          "CARD": {
+            "fields": {
+              "cardNumber": true,
+              "amount": true,
+              "accountNumber": true,
+              "depositorName": true,
+              "remarks": true,
+              "nida": true,
+              "mobileNumber": false,
+              "otp": false,
+              "token": false
+            }
+          },
+          "MOBILE_NUMBER": {
+            "fields": {
+              "mobileNumber": true,
+              "amount": true,
+              "accountNumber": true,
+              "depositorName": true,
+              "remarks": true,
+              "nida": false,
+              "cardNumber": false,
+              "otp": false,
+              "token": false
+            }
+          },
+          "AGENT_CODE": {
+            "fields": {
+              "agentCode": true,
+              "amount": true,
+              "accountNumber": true,
+              "remarks": true,
+              "depositorName": true,
+              "nida": false,
+              "mobileNumber": false,
+              "cardNumber": false,
+              "otp": false,
+              "token": false
+            }
+          },
+          "TOKEN_OTP": {
+            "fields": {
+              "token": true,
+              "otp": true,
+              "amount": true,
+              "accountNumber": true,
+              "mobileNumber": true,
+              "remarks": true,
+              "depositorName": false,
+              "cardNumber": false,
+              "nida": false
+            }
+          }
         }
       }
     }
@@ -120,3 +190,4 @@
     }
   }
 ]
+
