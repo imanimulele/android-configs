@@ -41,35 +41,11 @@
     </Security>
 
     <servicesConfiguration>
-        <agencyBankingServices name="Agency Banking" enabled="Y">        
-        <Acquirer code="CRDB" name="CRDB Bank">
-        <Code>01</Code>    
-        <Logo>crdb.png</Logo>
-            <ISOHost>196.12.34.10</ISOHost>
-            <ISOPort>5000</ISOPort>
-            <SSL>true</SSL>
-            <Timeout>30</Timeout>
-            <TPDU>6001020000</TPDU>
-            <SupportsContactless>true</SupportsContactless>
-            <SupportsTAPonPhone>true</SupportsTAPonPhone>
-
-        </Acquirer>
-
-            <Acquirer code="NMB" name="NMB Bank">
-            <Code>02</Code>
-            <Logo>nmb.png</Logo>
-            <ISOHost>196.12.34.11</ISOHost>
-            <ISOPort>5001</ISOPort>
-            <SSL>true</SSL>
-            <Timeout>30</Timeout>
-            <TPDU>6001030000</TPDU>
-            <SupportsContactless>true</SupportsContactless>
-            <SupportsTAPonPhone>true</SupportsTAPonPhone>
-    
-        </Acquirer>
-
-
-        </agencyBankingServices>
+        <agencyBankingServices name="Agency Banking" enabled="Y"> 
+           <service code="bannkList" name="Bank List ">
+           <option code="getBanks" name="Get Banks" enabled="Y" destination="banksList"/>
+           </service>
+    </agencyBankingServices>
 
         <merchantServices name="Merchant Services" enabled="Y">
             <service code="merchantTransactions" name="Merchant Transactions">
@@ -95,5 +71,6 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
