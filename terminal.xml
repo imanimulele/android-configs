@@ -15,7 +15,7 @@
         <Locale>en-TZ</Locale>
         <TimeZone>Africa/Dar_es_Salaam</TimeZone>
         <CountryCode>834</CountryCode>
-        <CurrencyCode>834</CurrencyCode>
+        <Currency>TZS</Currency>
         <postalCode>00000</postalCode>
         <merchantCity>DAR ES SALAAM</merchantCity>
         <mobileNumber>255700000000</mobileNumber>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
