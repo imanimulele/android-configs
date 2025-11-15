@@ -67,5 +67,56 @@
         }
       }
     }
+  },
+  {
+    "bankId": "EQT",
+    "bankName": "Equity Bank",
+    "services": {
+      "withdraw": {
+        "method": "CARD_ONLY",
+        "fields": {
+          "accountNumber": false,
+          "amount": true,
+          "mobileNumber": false,
+          "remarks": true,
+          "depositorName": false,
+          "nida": false,
+          "sourceOfFunds": false,
+          "destinationAccount": false,
+          "token": false,
+          "otp": false,
+          "invoiceNumber": false
+        }
+      },
+      "cardPayment": {
+        "method": "CARD_PAYMENT",
+        "fields": {
+          "amount": true,
+          "remarks": true,
+          "invoiceNumber": true,
+          "mobileNumber": false,
+          "nida": false,
+          "accountNumber": false,
+          "token": false,
+          "otp": false,
+          "depositorName": false,
+          "sourceOfFunds": false,
+          "destinationAccount": false
+        }
+      },
+      "tokenWithdraw": {
+        "method": "TOKEN_OTP",
+        "fields": {
+          "token": true,
+          "otp": true,
+          "amount": true,
+          "mobileNumber": true,
+          "remarks": false,
+          "nida": false,
+          "accountNumber": false,
+          "depositorName": false
+        }
+      }
+    }
   }
 ]
