@@ -3,7 +3,7 @@
     "bankId": "CRDB",
     "bankName": "CRDB Bank",
     "services": {
-      "withdraw": {
+      "Cash Withdrawal": {
         "methods": {
           "CARD": {
             "fields": {
@@ -107,7 +107,7 @@
     "bankId": "NMB",
     "bankName": "NMB Bank",
     "services": {
-      "withdraw": {
+      "Cash Withdrawal": {
         "method": "ACCOUNT_NUMBER",
         "fields": {
           "accountNumber": true,
@@ -190,4 +190,5 @@
     }
   }
 ]
+
 
