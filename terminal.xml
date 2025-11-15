@@ -65,6 +65,9 @@
                 <option code="settlements" name="Settlements" enabled="Y" destination="reports/settlements"/>
                 <option code="transactions" name="Transactions" enabled="Y" destination="reports/transactions"/>
             </service>
+             <service code="qr" name="QR Code Transactions">
+                <option code="tanQr" name="TAN QR" enabled="Y" destination="tanQr"/>
+            </service>
         </merchantServices>
 
         <governmentServices name="Government Services" enabled="Y">
@@ -78,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
