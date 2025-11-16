@@ -40,23 +40,23 @@
         </Visa>
         <MasterCard>
             <FloorLimit>0</FloorLimit>
-            <ContactlessLimit>10000</ContactlessLimit>
-            <CVMRequiredLimit>10000</CVMRequiredLimit>
+            <ContactlessLimit>100000</ContactlessLimit>
+            <CVMRequiredLimit>100000</CVMRequiredLimit>
         </MasterCard>
         <Maestro>
             <FloorLimit>0</FloorLimit>
-            <ContactlessLimit>10000</ContactlessLimit>
-            <CVMRequiredLimit>10000</CVMRequiredLimit>
+            <ContactlessLimit>100000</ContactlessLimit>
+            <CVMRequiredLimit>100000</CVMRequiredLimit>
         </Maestro>
         <Amex>
             <FloorLimit>0</FloorLimit>
-            <ContactlessLimit>10000</ContactlessLimit>
-            <CVMRequiredLimit>10000</CVMRequiredLimit>
+            <ContactlessLimit>100000</ContactlessLimit>
+            <CVMRequiredLimit>100000</CVMRequiredLimit>
         </Amex>
         <UnionPay>
             <FloorLimit>0</FloorLimit>
-            <ContactlessLimit>10000</ContactlessLimit>
-            <CVMRequiredLimit>10000</CVMRequiredLimit>
+            <ContactlessLimit>100000</ContactlessLimit>
+            <CVMRequiredLimit>100000</CVMRequiredLimit>
         </UnionPay>
     </TransactionLimits>
 
@@ -64,8 +64,8 @@
         <ContactlessEnabled>true</ContactlessEnabled>
         <TransactionType>Purchase</TransactionType>
         <TerminalType>POS</TerminalType>
-        <TerminalCapabilities>EMV,Magstripe,Contactless</TerminalCapabilities>
-        <AdditionalTerminalCapabilities>OnlinePIN,Signature</AdditionalTerminalCapabilities>
+        <TerminalCapabilities>Contactless</TerminalCapabilities>
+        <AdditionalTerminalCapabilities>OnlinePIN</AdditionalTerminalCapabilities>
     </ReaderSettings>
 
     <RiskManagement>
@@ -107,3 +107,4 @@
     </RiskManagement>
 
 </EMVContactlessConfig>
+
