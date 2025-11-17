@@ -3,7 +3,7 @@
 
     <Terminal>
         <TerminalID>DT300110</TerminalID>
-        <MerchantID>3001102</MerchantID>
+        <MerchantID>00001115</MerchantID>
         <MerchantName>DEMO MERCHANT</MerchantName>
         <MerchantCategoryCode>6011</MerchantCategoryCode>
         <AcquirerID>000001</AcquirerID>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
