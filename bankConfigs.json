@@ -43,8 +43,7 @@
           }
         }
       },
-
-      "deposit": {
+      "Deposit": {
         "methods": {
           "CARD": {
             "fields": {
@@ -57,107 +56,6 @@
               "amount": true,
               "accountNumber": true,
               "depositorName": true,
-              "remarks": true,
-              "nida": false,
-              "cardNumber": false,
-              "otp": false,
-              "token": false
-            }
-          },
-          "AGENT CODE": {
-            "fields": {
-              "agentCode": true,
-              "amount": true,
-              "accountNumber": true,
-              "remarks": true,
-              "depositorName": true,
-              "nida": false,
-              "mobileNumber": false,
-              "cardNumber": false,
-              "otp": false,
-              "token": false
-            }
-          },
-          "TOKEN": {
-            "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "accountNumber": true,
-              "mobileNumber": true,
-              "remarks": true,
-              "depositorName": false,
-              "cardNumber": false,
-              "nida": false
-            }
-          }
-        }
-      }
-    }
-  },
- {
-    "bankId": "NBC",
-    "bankName": "NBC Bank",
-    "services": {
-      "Cash Withdrawal": {
-        "methods": {
-          "CARD": {
-            "fields": {
-              "cardNumber": true,
-              "amount": true,
-              "nida": true,
-              "remarks": true,
-              "mobileNumber": false,
-              "accountNumber": false,
-              "token": false,
-              "otp": false
-            }
-          },
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "remarks": true,
-              "nida": false,
-              "cardNumber": false,
-              "accountNumber": false,
-              "token": false,
-              "otp": false
-            }
-          },
-          "TOKEN": {
-            "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "remarks": true,
-              "mobileNumber": true,
-              "accountNumber": false,
-              "cardNumber": false,
-              "nida": false
-            }
-          }
-        }
-      },
-
-      "Cash Deposit": {
-        "methods": {
-          "CARD": {
-            "fields": {
-              "cardNumber": true,
-              "amount": true,
-              "accountNumber": true,
-              "depositorName": true,
-              "remarks": true,
-              "nida": true
-            }
-          },
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "accountNumber": true,
-              "depositorName": true,
               "remarks": true
             }
           },
@@ -180,6 +78,47 @@
               "remarks": true
             }
           }
+        }
+      },
+      "Balance Check": {
+        "methods": {
+          "CARD": {
+            "fields": {
+              "cardNumber": true
+            }
+          },
+          "ACCOUNT NUMBER": {
+            "fields": {
+              "accountNumber": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "bankId": "NBC",
+    "bankName": "NBC Bank",
+    "services": {
+      "Cash Withdrawal": {
+        "methods": {
+          "CARD": { "fields": { "cardNumber": true, "amount": true, "nida": true, "remarks": true } },
+          "MOBILE NUMBER": { "fields": { "mobileNumber": true, "amount": true, "remarks": true } },
+          "TOKEN": { "fields": { "token": true, "otp": true, "amount": true, "remarks": true } }
+        }
+      },
+      "Cash Deposit": {
+        "methods": {
+          "CARD": { "fields": { "cardNumber": true, "amount": true, "accountNumber": true, "depositorName": true, "remarks": true } },
+          "MOBILE NUMBER": { "fields": { "mobileNumber": true, "amount": true, "accountNumber": true, "depositorName": true, "remarks": true } },
+          "AGENT CODE": { "fields": { "agentCode": true, "amount": true, "accountNumber": true, "remarks": true, "depositorName": true } },
+          "TOKEN": { "fields": { "token": true, "otp": true, "amount": true, "accountNumber": true, "mobileNumber": true, "remarks": true } }
+        }
+      },
+      "Balance Check": {
+        "methods": {
+          "CARD": { "fields": { "cardNumber": true } },
+          "ACCOUNT NUMBER": { "fields": { "accountNumber": true } }
         }
       }
     }
@@ -191,162 +130,25 @@
     "services": {
       "Cash Withdrawal": {
         "methods": {
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "remarks": true,
-              "depositorName": true
-            }
-          },
-          "ACCOUNT NUMBER": {
-            "fields": {
-              "accountNumber": true,
-              "amount": true,
-              "mobileNumber": true,
-              "remarks": true
-            }
-          },
-          "TOKEN": {
-            "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "mobileNumber": true
-            }
-          }
+          "MOBILE NUMBER": { "fields": { "mobileNumber": true, "amount": true, "remarks": true, "depositorName": true } },
+          "ACCOUNT NUMBER": { "fields": { "accountNumber": true, "amount": true, "mobileNumber": true, "remarks": true } },
+          "TOKEN": { "fields": { "token": true, "otp": true, "amount": true, "mobileNumber": true } }
         }
       },
-
       "Cash Deposit": {
         "methods": {
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "accountNumber": true,
-              "depositorName": true,
-              "remarks": true
-            }
-          },
-          "AGENT CODE": {
-            "fields": {
-              "agentCode": true,
-              "amount": true,
-              "accountNumber": true,
-              "remarks": true,
-              "depositorName": true
-            }
-          }
-        }
-      }
-    }
-  },
-
-  {
-    "bankId": "DTB",
-    "bankName": "Diamond Trust Bank",
-    "services": {
-      "Cash Withdrawal": {
-        "methods": {
-          "CARD": {
-            "fields": {
-              "cardNumber": true,
-              "amount": true,
-              "remarks": true
-            }
-          },
-          "TOKEN": {
-            "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "mobileNumber": true
-            }
-          }
+          "MOBILE NUMBER": { "fields": { "mobileNumber": true, "amount": true, "accountNumber": true, "depositorName": true, "remarks": true } },
+          "AGENT CODE": { "fields": { "agentCode": true, "amount": true, "accountNumber": true, "remarks": true, "depositorName": true } }
         }
       },
-
-      "Cash Deposit": {
+      "Balance Check": {
         "methods": {
-          "ACCOUNT NUMBER": {
-            "fields": {
-              "accountNumber": true,
-              "amount": true,
-              "depositorName": true,
-              "remarks": true
-            }
-          },
-          "AGENT CODE": {
-            "fields": {
-              "agentCode": true,
-              "amount": true,
-              "accountNumber": true,
-              "remarks": true
-            }
-          }
-        }
-      }
-    }
-  },
-
-  {
-    "bankId": "EXIM",
-    "bankName": "Exim Bank",
-    "services": {
-      "Cash Withdrawal": {
-        "methods": {
-          "CARD": {
-            "fields": {
-              "cardNumber": true,
-              "amount": true,
-              "remarks": true
-            }
-          },
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "remarks": true
-            }
-          },
-          "TOKEN": {
-            "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "mobileNumber": true
-            }
-          }
-        }
-      },
-
-      "Cash Deposit": {
-        "methods": {
-          "ACCOUNT NUMBER": {
-            "fields": {
-              "accountNumber": true,
-              "amount": true,
-              "depositorName": true,
-              "remarks": true
-            }
-          },
-          "MOBILE NUMBER": {
-            "fields": {
-              "mobileNumber": true,
-              "amount": true,
-              "accountNumber": true,
-              "depositorName": true,
-              "remarks": true
-            }
-          }
+          "CARD": { "fields": { "cardNumber": true } },
+          "ACCOUNT NUMBER": { "fields": { "accountNumber": true } }
         }
       }
     }
   }
+
+
 ]
-
-
-
-
-
