@@ -80,7 +80,7 @@
           }
         }
       },
-      "Balance Check": {
+      "BALANCE INQUIRY": {
         "methods": {
           "CARD": {
             "fields": {
@@ -115,7 +115,7 @@
           "TOKEN": { "fields": { "token": true, "otp": true, "amount": true, "accountNumber": true, "mobileNumber": true, "remarks": true } }
         }
       },
-      "Balance Check": {
+      "BALANCE INQUIRY": {
         "methods": {
           "CARD": { "fields": { "cardNumber": true } },
           "ACCOUNT NUMBER": { "fields": { "accountNumber": true } }
@@ -141,7 +141,7 @@
           "AGENT CODE": { "fields": { "agentCode": true, "amount": true, "accountNumber": true, "remarks": true, "depositorName": true } }
         }
       },
-      "Balance Check": {
+      "BALANCE INQUIRY": {
         "methods": {
           "CARD": { "fields": { "cardNumber": true } },
           "ACCOUNT NUMBER": { "fields": { "accountNumber": true } }
