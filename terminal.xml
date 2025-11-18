@@ -58,7 +58,7 @@
             <service code="merchantTransactions" name="Merchant Transactions">
                 <option code="sales" name="Sales" enabled="Y" destination="amount"/>
                 <option code="refund" name="Refund" enabled="Y" destination="amount"/>
-                <option code="void" name="Void Transaction" enabled="Y" destination="amount"/>
+                <option code="void" name="Void" enabled="Y" destination="amount"/>
                 <option code="reversal" name="Reversal" enabled="Y" destination="amount"/>
             </service>
             <service code="merchantReports" name="Reports">
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
