@@ -3,20 +3,18 @@
 
     <Terminal>
         <TerminalID>DT300110</TerminalID>
-        <MerchantID>00001115</MerchantID>
-        <MerchantName>DEMO MERCHANT</MerchantName>
+        <MerchantID>61225307</MerchantID>
+        <MerchantName>IMANI JACKSON MULELE</MerchantName>
         <MerchantCategoryCode>6011</MerchantCategoryCode>
-        <AcquirerID>000001</AcquirerID>
-
+        <AcquirerID>03998</AcquirerID>
         <ContactlessCVMLimit>100000</ContactlessCVMLimit>
         <OfflineLimit>40000</OfflineLimit>
         <FallbackAllowed>true</FallbackAllowed>
-
         <Locale>en-TZ</Locale>
         <TimeZone>Africa/Dar_es_Salaam</TimeZone>
         <CountryCode>834</CountryCode>
         <Currency>TZS</Currency>
-        <postalCode>00000</postalCode>
+        <postalCode>16104</postalCode>
         <merchantCity>DAR ES SALAAM</merchantCity>
         <mobileNumber>255700000000</mobileNumber>
         <email>muleleiman@gmail.com</email>
@@ -81,6 +79,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
