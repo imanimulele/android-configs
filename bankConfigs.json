@@ -35,6 +35,13 @@
                "amount": true,
                "mobileNumber": true
             }
+          },
+            "OTP": {
+            "fields": {
+             "accountNumber": true,
+               "amount": true,
+               "mobileNumber": true
+            }
           }
         }
       },
@@ -142,6 +149,7 @@
 
 
 ]
+
 
 
 
