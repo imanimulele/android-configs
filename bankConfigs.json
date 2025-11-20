@@ -31,14 +31,7 @@
           },
           "TOKEN": {
             "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "remarks": true,
-              "mobileNumber": true,
-              "accountNumber": false,
-              "cardNumber": false,
-              "nida": false
+              "token": true
             }
           }
         }
@@ -152,3 +145,4 @@
 
 
 ]
+
