@@ -31,7 +31,9 @@
           },
           "TOKEN": {
             "fields": {
-              "token": true
+              "token": true,
+               "amount": true,
+               "mobileNumber": true
             }
           }
         }
@@ -140,5 +142,6 @@
 
 
 ]
+
 
 
