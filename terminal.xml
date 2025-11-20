@@ -20,6 +20,7 @@
         <email>muleleiman@gmail.com</email>
         <supportContact>+255700000000</supportContact>
         <mobileCode>255</mobileCode>
+         <primary>posb1-pp.tpspay.com:7116</primary>
     </Terminal>
 
     <!-- Optional Security -->
@@ -37,24 +38,6 @@
             <PINBypassAllowed>false</PINBypassAllowed>
         </PIN>
     </Security>
-
-    <paymentSwitch>
-        <pstn>
-            <primary></primary>
-            <secondary></secondary>
-        </pstn>
-        <ip>
-            <primary>posb1-pp.tpspay.com:7116</primary>
-            <secondary>posb1-pp.tpspay.com:7116</secondary>
-            <useSsl>Y</useSsl>
-        </ip>
-        <dialTimeout>35</dialTimeout>
-        <sendTimeout>30</sendTimeout>
-        <receiveTimeout>60</receiveTimeout>
-        <useSsl>Y</useSsl>
-        <mac>DUKPT</mac>
-        <pinEncryption>DUKPT</pinEncryption>
-    </paymentSwitch>
 
     <servicesConfiguration>
         <agencyBankingServices name="Agency Banking" enabled="Y"> 
@@ -97,6 +80,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
