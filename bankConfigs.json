@@ -63,12 +63,7 @@
           },
           "TOKEN": {
             "fields": {
-              "token": true,
-              "otp": true,
-              "amount": true,
-              "accountNumber": true,
-              "mobileNumber": true,
-              "remarks": true
+              "token": true
             }
           }
         }
@@ -145,4 +140,5 @@
 
 
 ]
+
 
