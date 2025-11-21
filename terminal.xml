@@ -46,7 +46,7 @@
         <ip>
             <primary>10.231.18.204:8001</primary>
             <secondary>10.231.18.204:8001</secondary>
-            <useSsl>Y</useSsl>
+            <useSsl>N</useSsl>
         </ip>
         <dialTimeout>35</dialTimeout>
         <sendTimeout>30</sendTimeout>
@@ -97,6 +97,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
