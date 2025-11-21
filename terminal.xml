@@ -22,22 +22,6 @@
         <mobileCode>255</mobileCode>
     </Terminal>
 
-    <!-- Optional Security -->
-    <Security>
-        <DUKPT>
-            <KeyType>BDK</KeyType>
-            <BDK>0123456789ABCDEFFEDCBA9876543210</BDK>
-            <KSI>FFFF9876543210E00000</KSI>
-        </DUKPT>
-
-        <PIN>
-            <PINFormat>ISO9564-0</PINFormat>
-            <MaxPINLength>12</MaxPINLength>
-            <MinPINLength>4</MinPINLength>
-            <PINBypassAllowed>false</PINBypassAllowed>
-        </PIN>
-    </Security>
-
     <paymentSwitch>
         <pstn>
             <primary></primary>
@@ -97,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
