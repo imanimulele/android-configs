@@ -86,7 +86,7 @@
             </service>
         </merchantServices>
 
-        <governmentServices name="Government Services" enabled="Y">
+        <governmentServices name="Government Services" enabled="N">
             <service code="govPayments" name="Government Payments">
                 <option code="revenueCollection" name="Revenue Collection" enabled="Y" destination="revenueCollectionForm"/>
                 <option code="taxPayment" name="Tax Payment" enabled="Y" destination="amount"/>
@@ -97,6 +97,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
