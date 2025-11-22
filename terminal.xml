@@ -28,8 +28,8 @@
             <secondary></secondary>
         </pstn>
         <ip>
-            <primary>10.172.170.93:8001</primary>
-            <secondary>10.172.170.93:8001</secondary>
+            <primary>10.231.18.119:8001</primary>
+            <secondary>10.231.18.119:8001</secondary>
             <useSsl>N</useSsl>
         </ip>
         <dialTimeout>35</dialTimeout>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
