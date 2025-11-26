@@ -2,7 +2,7 @@
 <TerminalConfig>
 
     <Terminal>
-        <TerminalID>DT300110</TerminalID>
+        <TerminalID>DT300111</TerminalID>
         <MerchantID>61225307</MerchantID>
         <MerchantName>IMANI JACKSON MULELE</MerchantName>
         <MerchantCategoryCode>5999</MerchantCategoryCode>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
