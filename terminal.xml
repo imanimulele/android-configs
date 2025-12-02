@@ -4,7 +4,7 @@
     <Terminal>
         <TerminalID>DT300111</TerminalID>
         <MerchantID>61225307</MerchantID>
-        <MerchantName>IMANI  MULELE</MerchantName>
+        <MerchantName>IMANI j.  MULELE</MerchantName>
         <MerchantCategoryCode>5999</MerchantCategoryCode>
         <AcquirerID>03998</AcquirerID>
         <ContactlessCVMLimit>100000</ContactlessCVMLimit>
@@ -30,7 +30,7 @@
         <ip>
             <primary>https://isoserver-application.onrender.com:8001</primary>
             <secondary>https://isoserver-application.onrender.com:8001</secondary>
-            <useSsl>N</useSsl>
+            <useSsl>Y</useSsl>
         </ip>
         <dialTimeout>35</dialTimeout>
         <sendTimeout>30</sendTimeout>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
