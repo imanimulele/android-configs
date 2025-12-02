@@ -28,7 +28,7 @@
             <secondary></secondary>
         </pstn>
         <ip>
-            <primary>10.116.200.248:8001</primary>
+            <primary>https://isoserver-application.onrender.com:8001</primary>
             <secondary>10.116.200.248:8001</secondary>
             <useSsl>N</useSsl>
         </ip>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
