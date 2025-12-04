@@ -4,7 +4,7 @@
     <Terminal>
         <TerminalID>DT300111</TerminalID>
         <MerchantID>61225307</MerchantID>
-        <MerchantName>IMANI j.  MULELE</MerchantName>
+        <MerchantName>IMANI JACKS  MULELE</MerchantName>
         <MerchantCategoryCode>5999</MerchantCategoryCode>
         <AcquirerID>03998</AcquirerID>
         <ContactlessCVMLimit>100000</ContactlessCVMLimit>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
