@@ -28,8 +28,8 @@
             <secondary></secondary>
         </pstn>
         <ip>
-            <primary>https://isoserver-application.onrender.com:8001</primary>
-            <secondary>https://isoserver-application.onrender.com:8001</secondary>
+            <primary>isoserver-application.onrender.com:8001</primary>
+            <secondary>isoserver-application.onrender.com:8001</secondary>
             <useSsl>Y</useSsl>
         </ip>
         <dialTimeout>35</dialTimeout>
@@ -81,6 +81,7 @@
     </servicesConfiguration>
 
 </TerminalConfig>
+
 
 
 
