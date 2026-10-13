@@ -6,7 +6,7 @@
         <MerchantID>760003095</MerchantID>
         <MerchantName>Imani Mulele</MerchantName>
         <MerchantCategoryCode>5999</MerchantCategoryCode>
-        <AcquirerID>400014</AcquirerID>
+        <AcquirerID>01011</AcquirerID>
         <ContactlessCVMLimit>100000</ContactlessCVMLimit>
         <OfflineLimit>40000</OfflineLimit>
         <FallbackAllowed>true</FallbackAllowed>
